@@ -7,4 +7,4 @@ jdk:
 language: java
 script:
   - mvn test
-  - sonar-scanner -Dsonar.login=${SONAR_TOKEN} -Dsonar.organization=anxoportela-github -Dsonar.projectKey=ejemploMaven
+  - sonar-scanner -Dsonar.login=${SONAR_TOKEN} -Dsonar.organization=anxoportela -Dsonar.projectKey=ejemploMaven
